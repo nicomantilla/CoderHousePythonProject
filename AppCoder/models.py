@@ -1,7 +1,10 @@
 from django.db import models
 
 # Create your models here.
+class Inicio(models.Model):
 
+    principal=models.CharField(max_length=30)
+    
 class Usuario(models.Model):
 
     nombre=models.CharField(max_length=30)
@@ -35,3 +38,5 @@ class Soporte(models.Model):
 
 
     
+#ubertrucho
+#12345
