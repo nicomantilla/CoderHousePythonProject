@@ -5,4 +5,5 @@ urlpatterns = [
     path("user", views.usuario, name="usuario"),
     path("soporte", views.soporte, name="soporte"),
     path("conductor", views.conductor, name="conductor"),
+    path("login", views.login_request, name="Login"),
 ] 
